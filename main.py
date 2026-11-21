@@ -17,10 +17,10 @@ if opcao == 1:
     print(f'{num1} + {num2} = {num1+num2}')
 
 elif opcao == 2:
-    print(f'{num1} + {num2} = {num1-num2}')
+    print(f'{num1} - {num2} = {num1-num2}')
 
 elif opcao == 3:
-    print(f'{num1} + {num2} = {num1*num2}')
+    print(f'{num1} * {num2} = {num1*num2}')
 
 elif opcao == 4:
-    print(f'{num1} + {num2} = {num1/num2}')
+    print(f'{num1} / {num2} = {num1/num2}')
