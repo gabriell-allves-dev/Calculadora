@@ -1,11 +1,16 @@
-print('CALCULADORA EM PYTHON')
+green = '\033[1;32m'
+red = '\033[1;31m'
+
+print(f'{green}')
+
+print('='*6 + ' CALCULADORA EM PYTHON ' + '='*6)
 
 print()
 num1 = float(input('Digite um valor: '))
 num2 = float(input('Digite um outro valor: '))
 print()
 
-print('OPERAÇÕES')
+print('='*6 + ' OPERAÇÕES ' + '='*6)
 print('\n[1] - Adição')
 print('[2] - Subtração')
 print('[3] - Multiplicação')
@@ -27,4 +32,4 @@ elif opcao == 4:
         print(f'\n{num1} / {num2} = {num1/num2}')
 
     else:
-        print('\nValor inválido')
+        print(f'\n{red}Valor inválido{green}')
