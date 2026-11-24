@@ -16,7 +16,7 @@ Uma calculadora simples desenvolvida em Python para praticar lógica de programa
 ## 💻 Como executar
 
 1. Clone este repositório.
-2. Abra a pasta do projeto no terminal.
+2. Abra a pasta do projeto.
 3. Execute o arquivo:
 
    **Executar**
